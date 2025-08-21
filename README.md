@@ -33,3 +33,7 @@ Java EE Tools > Generate Deployment Descriptor 메뉴 선택
 	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
 	version="5.0">
 ```
+
+#### 5. target runtime 설정
+1. 프로젝트 오른쪽 메뉴 (properties) > Tageted Runtime
+2. 프로젝트의 서버 선택
