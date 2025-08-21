@@ -14,6 +14,7 @@
 ```
 
 2) Dependency(servlet api, jsp api) 추가
+
 ```xml
 <dependencies>
 		<!-- servlet api -->
