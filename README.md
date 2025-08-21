@@ -43,7 +43,7 @@
 </build>
 ```
 
-#### 3. webx.xml 생성
+#### 3. web.xml 생성
 Java EE Tools > Generate Deployment Descriptor 메뉴 선택
 
 
@@ -51,3 +51,4 @@ Java EE Tools > Generate Deployment Descriptor 메뉴 선택
 프로젝트 오른쪽 메뉴 (properties) > Tageted Runtime
 
 프로젝트의 서버 선택
+
