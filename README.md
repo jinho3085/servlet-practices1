@@ -13,7 +13,28 @@
 </properties>
 ```
 
-2) 패키징 war 파일 이름 지정
+2) Dependency(servlet api, jsp api) 추가
+```xml
+<dependencies>
+		<!-- servlet api -->
+		<dependency>
+		    <groupId>jakarta.servlet</groupId>
+		    <artifactId>jakarta.servlet-api</artifactId>
+		    <version>5.0.0</version>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<!-- jsp api -->
+		<dependency>
+		    <groupId>jakarta.servlet.jsp</groupId>
+		    <artifactId>jakarta.servlet.jsp-api</artifactId>
+		    <version>4.0.0</version>
+		    <scope>provided</scope>
+		</dependency>
+	</dependencies>
+```   
+
+3) 패키징 war 파일 이름 지정
 
 ```xml
 <build>
@@ -27,4 +48,5 @@ Java EE Tools > Generate Deployment Descriptor 메뉴 선택
 
 #### 4. target runtime 설정
 프로젝트 오른쪽 메뉴 (properties) > Tageted Runtime
+
 프로젝트의 서버 선택
