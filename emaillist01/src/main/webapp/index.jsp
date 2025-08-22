@@ -29,6 +29,11 @@
 				<td>이메일</td>
 				<td><%=vo.getEmail() %></td>
 			</tr>
+			<tr>
+				<td colspan="2">
+					<a href="/emaillist01/delete.jsp?id=<%=vo.getId() %>">삭제</a>
+				</td>
+			</tr>
 		</table>
 		<br>
 	<%
