@@ -13,6 +13,7 @@ public class EmaillistServlet extends HttpServlet {
 		String action = request.getParameter("a");
 		
 		if("list".equals(action)) {
+			List<EmailVo> list = new EmailDao().findAll();
 			
 		} else if("form".equals(action)) {
 			
