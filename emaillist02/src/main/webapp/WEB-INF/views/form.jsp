@@ -11,7 +11,8 @@
 		아래 항목을 기입하고 등록 버튼을 클릭하세요.
 	</p>
 	
-	<form action="/emaillist01/register.jsp" method="post">
+	<form action="/emaillist02/el?a=add" method="post">
+		<input type="hidden" name="a" value="add">
 	    성 : <input type="text" name="firstName" value="" >
 	    <br>
 	    
@@ -26,7 +27,7 @@
 	<br>
 	
 	<p>
-		<a href="/emaillist01">리스트 보기</a>
+		<a href="/emaillist02/el">리스트 보기</a>
 	</p>
 </body>
 </html>

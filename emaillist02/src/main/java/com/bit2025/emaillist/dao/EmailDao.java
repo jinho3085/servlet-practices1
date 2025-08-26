@@ -21,6 +21,7 @@ public class EmailDao {
 		) {
 			pstmt.setLong(1, id);
 			result = pstmt.executeUpdate();
+			System.out.println("delete id=" + id + ", result=" + result);
 		} catch (SQLException e) {
 			 System.out.println("error:" + e);
 		}
