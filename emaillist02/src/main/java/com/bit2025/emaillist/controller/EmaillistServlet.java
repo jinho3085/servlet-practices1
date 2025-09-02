@@ -32,7 +32,6 @@ public class EmaillistServlet extends HttpServlet {
 			vo.setFirstName(firstName);
 			vo.setLastName(lastName);
 			vo.setEmail(email);
-			
 			new EmailDao().insert(vo);
 
 			response.sendRedirect("/emaillist02/el");
